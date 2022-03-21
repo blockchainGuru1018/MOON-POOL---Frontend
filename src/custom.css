@@ -1,0 +1,50 @@
+.button-wallet {
+  cursor: pointer;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.profile-photo-sub {
+  width: 100%;
+  height: 100%;
+}
+
+.request-modal {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.request-content {
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: rgba(23, 53, 224, 0.8);
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px 7px #706ee4;
+  transition: all 0.3s ease-in;
+  display: inline-block;
+  color: white;
+}
+
+.accept-button {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.reject-button {
+  font-size: 12px;
+  cursor: pointer;
+}
